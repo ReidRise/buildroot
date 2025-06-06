@@ -142,6 +142,10 @@ ifeq ($(BR2_LINUX_KERNEL_NEEDS_HOST_PYTHON3),y)
 LINUX_DEPENDENCIES += $(BR2_PYTHON3_HOST_DEPENDENCY)
 endif
 
+ifeq ($(BR2_LINUX_KERNEL_NEEDS_HOST_PYTHON2),y)
+LINUX_DEPENDENCIES += $(BR2_PYTHON2_HOST_DEPENDENCY)
+endif
+
 # If host-uboot-tools is selected by the user, assume it is needed to
 # create a custom image
 ifeq ($(BR2_PACKAGE_HOST_UBOOT_TOOLS),y)

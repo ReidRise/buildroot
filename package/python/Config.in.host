@@ -1,0 +1,4 @@
+config BR2_PACKAGE_HOST_PYTHON2
+    bool "python2"
+    help
+      Build and install Python 2 for the host.
