@@ -2,7 +2,7 @@
 
 /dts-v1/;
 
-#include "rk3566-soquartz.dtsi"
+#include "rockchip/rk3566-soquartz.dtsi"
 
 / {
 	model = "Pine64 SOQuartz on Model A carrier board";
