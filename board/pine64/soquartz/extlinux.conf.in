@@ -1,4 +1,4 @@
 LABEL default
   kernel /boot/Image
   devicetreedir /boot
-  append root=PARTUUID=%PARTUUID% rootwait
+  append root=PARTUUID=%PARTUUID% rootwait ignore_loglevel rw rootwait earlycon console=tty0 console=ttyS2,1500000n8 fw_devlink=off
