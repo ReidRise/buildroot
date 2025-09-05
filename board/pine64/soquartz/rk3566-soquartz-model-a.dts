@@ -173,6 +173,7 @@
 &sdmmc0 {
 	vmmc-supply = <&vcc3v3_sd>;
 	status = "okay";
+    broken-cd;
 };
 
 /*
